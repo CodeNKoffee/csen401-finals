@@ -1,4 +1,4 @@
-class Manufacturer {
+public class Manufacturer {
   public final String NAME;
 
   private Manufacturer() {
