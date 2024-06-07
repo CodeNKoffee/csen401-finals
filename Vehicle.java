@@ -1,11 +1,6 @@
 public abstract class Vehicle {
-  public final Manufacturer MAKE;
+  public Manufacturer MAKE;
   private boolean isRunning;
-
-  public Vehicle() {
-    MAKE = new Manufacturer("Generic");
-    isRunning = false;
-  }
 
   public void start() {
     if (!this.isRunning)

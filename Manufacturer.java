@@ -1,7 +1,7 @@
 public class Manufacturer {
   public final String NAME;
 
-  private Manufacturer() {
+  public Manufacturer() {
     NAME = "";
   }
 
